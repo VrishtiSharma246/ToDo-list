@@ -1,0 +1,59 @@
+* {
+  font-family: "Gochi Hand", cursive;
+  color: white;
+}
+
+body {
+  background: url("./bgimage.jpg");
+}
+
+.container {
+  width: 360px;
+  padding: 33px;
+  text-align: center;
+  background-color: #35374b;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 33%;
+  border-radius: 25px;
+}
+.strike {
+  text-decoration: line-through;
+  opacity: 0.75;
+}
+input {
+  width: 270px;
+  padding: 8px;
+  border: 2px solid #a6b1e1;
+  outline: none;
+  font-size: 19px;
+  border-radius: 12px;
+  color: #000;
+}
+
+button {
+  width: 60px;
+  height: 41px;
+  border-radius: 12px;
+  background-color: #222831;
+  border: 1px solid;
+  outline: none;
+}
+
+.text li {
+  position: relative;
+  background-color: #a6b1e1;
+  color: #000;
+  font-size: 19px;
+  padding: 10px;
+  margin: 12px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.text li i {
+  position: absolute;
+  right: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
